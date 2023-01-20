@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+    background-color: black;
+    
+   
+}
+
+.banner {
+    width: 100%; 
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.50)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
+
+.navbar {
+ width: 85%;
+ margin: auto;
+ padding: 35px 0;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background-color: transparent;
+
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 30px;
+    
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+.navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+   
+
+
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+
+.content {
+    width: 100%;
+    background-color: transparent;
+   
+    
+}
+
+.name {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 120px;
+    text-shadow: 2px 2px #fffe0f ;
+    margin-top: 50px;
+    background-color: transparent;
+   
+}
+
+.slogan {
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: lighter;
+    background-color: transparent;
+}
+
+footer {
+    background-color: black;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    border-top: solid ;
+    border-color: grey;
+    
+}
+
+.hours {
+ color: grey;
+}
+
+.address {
+    color: grey;
+}
+
+.contact {
+    color: grey;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.info {
+    color: grey;
+    font-weight: lighter;
+    padding: 10px;
+
+}
+
+.sectionTitles {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+#about {
+   width: 100vw;
+   border-top: solid;
+   border-color: grey;
+   display:flex;
+   justify-content: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+  
+}
+
+
+
+
+.aboutContent {
+    background-image: url(aboutPic.jpg);
+    width: 90vw;
+    height: 80vh;
+    margin-top: 0px;
+    display:block;
+   
+    
+   
+}
+
+
+.aboutText {
+    color: lightyellow;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 50px;
+    background-color: transparent;
+   margin-top: 20px;
+    
+}
+
+
+#events {
+    background-color: black;
+    padding-top: 20px;
+    border-top: solid;
+    border-color: grey;
+    padding-bottom: 40px;
+ 
+}
+
+.eachEvent {
+   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 75px;
+    
+}
+
+
+.eventPhotos {
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.day {
+    color: yellow;
+    padding: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eventInfo {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top {
+    
+    bottom: 0;
+    background-color: transparent;
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 40px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+.topDiv {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom:0;
+    background-color: transparent;;
+}
